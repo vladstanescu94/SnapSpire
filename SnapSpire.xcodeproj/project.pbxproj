@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */; };
+		DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */; };
+		DE1EBA3929AE3FF3005F64C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */; };
+		DE1EBA3C29AE3FF3005F64C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1EBA3B29AE3FF3005F64C3 /* Preview Assets.xcassets */; };
+		DE1EBA4629AE3FF3005F64C3 /* SnapSpireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA4529AE3FF3005F64C3 /* SnapSpireTests.swift */; };
+		DE1EBA5029AE3FF3005F64C3 /* SnapSpireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA4F29AE3FF3005F64C3 /* SnapSpireUITests.swift */; };
+		DE1EBA5229AE3FF3005F64C3 /* SnapSpireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA5129AE3FF3005F64C3 /* SnapSpireUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1EBA4229AE3FF3005F64C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1EBA2929AE3FF0005F64C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1EBA3029AE3FF0005F64C3;
+			remoteInfo = SnapSpire;
+		};
+		DE1EBA4C29AE3FF3005F64C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1EBA2929AE3FF0005F64C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1EBA3029AE3FF0005F64C3;
+			remoteInfo = SnapSpire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1EBA3129AE3FF0005F64C3 /* SnapSpire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapSpire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSpireApp.swift; sourceTree = "<group>"; };
+		DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1EBA3B29AE3FF3005F64C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE1EBA4129AE3FF3005F64C3 /* SnapSpireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapSpireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1EBA4529AE3FF3005F64C3 /* SnapSpireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSpireTests.swift; sourceTree = "<group>"; };
+		DE1EBA4B29AE3FF3005F64C3 /* SnapSpireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapSpireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1EBA4F29AE3FF3005F64C3 /* SnapSpireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSpireUITests.swift; sourceTree = "<group>"; };
+		DE1EBA5129AE3FF3005F64C3 /* SnapSpireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSpireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1EBA2E29AE3FF0005F64C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1EBA3E29AE3FF3005F64C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1EBA4829AE3FF3005F64C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1EBA2829AE3FF0005F64C3 = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA3329AE3FF0005F64C3 /* SnapSpire */,
+				DE1EBA4429AE3FF3005F64C3 /* SnapSpireTests */,
+				DE1EBA4E29AE3FF3005F64C3 /* SnapSpireUITests */,
+				DE1EBA3229AE3FF0005F64C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1EBA3229AE3FF0005F64C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA3129AE3FF0005F64C3 /* SnapSpire.app */,
+				DE1EBA4129AE3FF3005F64C3 /* SnapSpireTests.xctest */,
+				DE1EBA4B29AE3FF3005F64C3 /* SnapSpireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1EBA3329AE3FF0005F64C3 /* SnapSpire */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */,
+				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
+				DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */,
+				DE1EBA3A29AE3FF3005F64C3 /* Preview Content */,
+			);
+			path = SnapSpire;
+			sourceTree = "<group>";
+		};
+		DE1EBA3A29AE3FF3005F64C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA3B29AE3FF3005F64C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE1EBA4429AE3FF3005F64C3 /* SnapSpireTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA4529AE3FF3005F64C3 /* SnapSpireTests.swift */,
+			);
+			path = SnapSpireTests;
+			sourceTree = "<group>";
+		};
+		DE1EBA4E29AE3FF3005F64C3 /* SnapSpireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA4F29AE3FF3005F64C3 /* SnapSpireUITests.swift */,
+				DE1EBA5129AE3FF3005F64C3 /* SnapSpireUITestsLaunchTests.swift */,
+			);
+			path = SnapSpireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1EBA3029AE3FF0005F64C3 /* SnapSpire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1EBA5529AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpire" */;
+			buildPhases = (
+				DE1EBA2D29AE3FF0005F64C3 /* Sources */,
+				DE1EBA2E29AE3FF0005F64C3 /* Frameworks */,
+				DE1EBA2F29AE3FF0005F64C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapSpire;
+			productName = SnapSpire;
+			productReference = DE1EBA3129AE3FF0005F64C3 /* SnapSpire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1EBA4029AE3FF3005F64C3 /* SnapSpireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1EBA5829AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpireTests" */;
+			buildPhases = (
+				DE1EBA3D29AE3FF3005F64C3 /* Sources */,
+				DE1EBA3E29AE3FF3005F64C3 /* Frameworks */,
+				DE1EBA3F29AE3FF3005F64C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1EBA4329AE3FF3005F64C3 /* PBXTargetDependency */,
+			);
+			name = SnapSpireTests;
+			productName = SnapSpireTests;
+			productReference = DE1EBA4129AE3FF3005F64C3 /* SnapSpireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE1EBA4A29AE3FF3005F64C3 /* SnapSpireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1EBA5B29AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpireUITests" */;
+			buildPhases = (
+				DE1EBA4729AE3FF3005F64C3 /* Sources */,
+				DE1EBA4829AE3FF3005F64C3 /* Frameworks */,
+				DE1EBA4929AE3FF3005F64C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1EBA4D29AE3FF3005F64C3 /* PBXTargetDependency */,
+			);
+			name = SnapSpireUITests;
+			productName = SnapSpireUITests;
+			productReference = DE1EBA4B29AE3FF3005F64C3 /* SnapSpireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1EBA2929AE3FF0005F64C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DE1EBA3029AE3FF0005F64C3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DE1EBA4029AE3FF3005F64C3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE1EBA3029AE3FF0005F64C3;
+					};
+					DE1EBA4A29AE3FF3005F64C3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE1EBA3029AE3FF0005F64C3;
+					};
+				};
+			};
+			buildConfigurationList = DE1EBA2C29AE3FF0005F64C3 /* Build configuration list for PBXProject "SnapSpire" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1EBA2829AE3FF0005F64C3;
+			productRefGroup = DE1EBA3229AE3FF0005F64C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1EBA3029AE3FF0005F64C3 /* SnapSpire */,
+				DE1EBA4029AE3FF3005F64C3 /* SnapSpireTests */,
+				DE1EBA4A29AE3FF3005F64C3 /* SnapSpireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1EBA2F29AE3FF0005F64C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1EBA3C29AE3FF3005F64C3 /* Preview Assets.xcassets in Resources */,
+				DE1EBA3929AE3FF3005F64C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1EBA3F29AE3FF3005F64C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1EBA4929AE3FF3005F64C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1EBA2D29AE3FF0005F64C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
+				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1EBA3D29AE3FF3005F64C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1EBA4629AE3FF3005F64C3 /* SnapSpireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1EBA4729AE3FF3005F64C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1EBA5229AE3FF3005F64C3 /* SnapSpireUITestsLaunchTests.swift in Sources */,
+				DE1EBA5029AE3FF3005F64C3 /* SnapSpireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1EBA4329AE3FF3005F64C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1EBA3029AE3FF0005F64C3 /* SnapSpire */;
+			targetProxy = DE1EBA4229AE3FF3005F64C3 /* PBXContainerItemProxy */;
+		};
+		DE1EBA4D29AE3FF3005F64C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1EBA3029AE3FF0005F64C3 /* SnapSpire */;
+			targetProxy = DE1EBA4C29AE3FF3005F64C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE1EBA5329AE3FF3005F64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE1EBA5429AE3FF3005F64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1EBA5629AE3FF3005F64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapSpire/Preview Content\"";
+				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.vladstanescu.SnapSpire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1EBA5729AE3FF3005F64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapSpire/Preview Content\"";
+				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.vladstanescu.SnapSpire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE1EBA5929AE3FF3005F64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.vladstanescu.SnapSpireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapSpire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapSpire";
+			};
+			name = Debug;
+		};
+		DE1EBA5A29AE3FF3005F64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.vladstanescu.SnapSpireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapSpire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapSpire";
+			};
+			name = Release;
+		};
+		DE1EBA5C29AE3FF3005F64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.vladstanescu.SnapSpireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapSpire;
+			};
+			name = Debug;
+		};
+		DE1EBA5D29AE3FF3005F64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.vladstanescu.SnapSpireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapSpire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1EBA2C29AE3FF0005F64C3 /* Build configuration list for PBXProject "SnapSpire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1EBA5329AE3FF3005F64C3 /* Debug */,
+				DE1EBA5429AE3FF3005F64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1EBA5529AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1EBA5629AE3FF3005F64C3 /* Debug */,
+				DE1EBA5729AE3FF3005F64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1EBA5829AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1EBA5929AE3FF3005F64C3 /* Debug */,
+				DE1EBA5A29AE3FF3005F64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1EBA5B29AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1EBA5C29AE3FF3005F64C3 /* Debug */,
+				DE1EBA5D29AE3FF3005F64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1EBA2929AE3FF0005F64C3 /* Project object */;
+}
