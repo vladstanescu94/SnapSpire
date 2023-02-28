@@ -71,6 +71,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE0C8CB229AE41BE0077FDF9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DE0C8CB329AE41C90077FDF9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DE0C8CB429AE41D80077FDF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DE1EBA2829AE3FF0005F64C3 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +118,10 @@
 		DE1EBA3329AE3FF0005F64C3 /* SnapSpire */ = {
 			isa = PBXGroup;
 			children = (
-				DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */,
-				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
-				DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */,
+				DE0C8CB229AE41BE0077FDF9 /* AppDelegate */,
+				DE0C8CB329AE41C90077FDF9 /* Features */,
 				DE1EBA3A29AE3FF3005F64C3 /* Preview Content */,
+				DE0C8CB429AE41D80077FDF9 /* Resources */,
 			);
 			path = SnapSpire;
 			sourceTree = "<group>";
