@@ -1,0 +1,9 @@
+# format options
+
+--guardelse next-line
+--allman false
+--elseposition same-line
+
+#rules
+
+--disable wrapMultilineStatementBraces
