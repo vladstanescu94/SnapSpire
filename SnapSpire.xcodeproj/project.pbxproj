@@ -159,6 +159,7 @@
 			buildConfigurationList = DE1EBA5529AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpire" */;
 			buildPhases = (
 				DE1EBA2D29AE3FF0005F64C3 /* Sources */,
+				76D32EAE29AF9EE600B10EF4 /* New Run Script Phase */,
 				DE1EBA2E29AE3FF0005F64C3 /* Frameworks */,
 				DE1EBA2F29AE3FF0005F64C3 /* Resources */,
 			);
@@ -239,6 +240,8 @@
 				Base,
 			);
 			mainGroup = DE1EBA2829AE3FF0005F64C3;
+			packageReferences = (
+			);
 			productRefGroup = DE1EBA3229AE3FF0005F64C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,6 +278,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76D32EAE29AF9EE600B10EF4 /* New Run Script Phase */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "New Run Script Phase";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd BuildTools\nSDKROOT=(xcrun --sdk macosx --show-sdk-path)\n#swift package update #Uncomment this line temporarily to update the version used to the latest matching your BuildTools/Package.swift file\nswift run -c release swiftformat \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE1EBA2D29AE3FF0005F64C3 /* Sources */ = {
