@@ -158,8 +158,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE1EBA5529AE3FF3005F64C3 /* Build configuration list for PBXNativeTarget "SnapSpire" */;
 			buildPhases = (
+				76D32EAE29AF9EE600B10EF4 /* SwiftFormat */,
 				DE1EBA2D29AE3FF0005F64C3 /* Sources */,
-				76D32EAE29AF9EE600B10EF4 /* New Run Script Phase */,
 				DE1EBA2E29AE3FF0005F64C3 /* Frameworks */,
 				DE1EBA2F29AE3FF0005F64C3 /* Resources */,
 			);
@@ -280,7 +280,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		76D32EAE29AF9EE600B10EF4 /* New Run Script Phase */ = {
+		76D32EAE29AF9EE600B10EF4 /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -290,7 +290,7 @@
 			);
 			inputPaths = (
 			);
-			name = "New Run Script Phase";
+			name = SwiftFormat;
 			outputFileListPaths = (
 			);
 			outputPaths = (
