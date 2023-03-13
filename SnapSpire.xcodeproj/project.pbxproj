@@ -166,6 +166,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				76F39E4F29BF3AB9005A7F08 /* PBXTargetDependency */,
 			);
 			name = SnapSpire;
 			productName = SnapSpire;
@@ -241,6 +242,7 @@
 			);
 			mainGroup = DE1EBA2829AE3FF0005F64C3;
 			packageReferences = (
+				76F39E4D29BF3AAC005A7F08 /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = DE1EBA3229AE3FF0005F64C3 /* Products */;
 			projectDirPath = "";
@@ -331,6 +333,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		76F39E4F29BF3AB9005A7F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 76F39E4E29BF3AB9005A7F08 /* SwiftLintPlugin */;
+		};
 		DE1EBA4329AE3FF3005F64C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DE1EBA3029AE3FF0005F64C3 /* SnapSpire */;
@@ -656,6 +662,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76F39E4D29BF3AAC005A7F08 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76F39E4E29BF3AB9005A7F08 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76F39E4D29BF3AAC005A7F08 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE1EBA2929AE3FF0005F64C3 /* Project object */;
 }
