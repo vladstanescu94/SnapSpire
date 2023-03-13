@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */; };
+		76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */; };
+		76F39E6329BF60B9005A7F08 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */; };
+		76F39E6629BF60B9005A7F08 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5829BF60B8005A7F08 /* Rubik-SemiBold.ttf */; };
+		76F39E6829BF60B9005A7F08 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5A29BF60B8005A7F08 /* Rubik-Regular.ttf */; };
 		DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */; };
 		DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */; };
 		DE1EBA3929AE3FF3005F64C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		76F39E5829BF60B8005A7F08 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		76F39E5A29BF60B8005A7F08 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		DE1EBA3129AE3FF0005F64C3 /* SnapSpire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapSpire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSpireApp.swift; sourceTree = "<group>"; };
 		DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76F39E5029BF6001005A7F08 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */,
+				76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */,
+				76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */,
+				76F39E5A29BF60B8005A7F08 /* Rubik-Regular.ttf */,
+				76F39E5829BF60B8005A7F08 /* Rubik-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DE0C8CB229AE41BE0077FDF9 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +112,7 @@
 		DE0C8CB429AE41D80077FDF9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				76F39E5029BF6001005A7F08 /* Fonts */,
 				DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -261,6 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1EBA3C29AE3FF3005F64C3 /* Preview Assets.xcassets in Resources */,
+				76F39E6829BF60B9005A7F08 /* Rubik-Regular.ttf in Resources */,
+				76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */,
+				76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */,
+				76F39E6329BF60B9005A7F08 /* Rubik-Light.ttf in Resources */,
+				76F39E6629BF60B9005A7F08 /* Rubik-SemiBold.ttf in Resources */,
 				DE1EBA3929AE3FF3005F64C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
