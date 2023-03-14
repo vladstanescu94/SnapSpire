@@ -1,11 +1,11 @@
 import SwiftUI
 
 enum GeneralFonts: String {
-    case RubikBold = "Rubik-Bold"
-    case RubikItalic = "Rubik-Italic"
-    case RubikLight = "Rubik-Light"
-    case RubikRegular = "Rubik-Regular"
-    case RubikSemiBold = "Rubik-SemiBold"
+    case rubikBold = "Rubik-Bold"
+    case rubikItalic = "Rubik-Italic"
+    case rubikLight = "Rubik-Light"
+    case rubikRegular = "Rubik-Regular"
+    case rubikSemiBold = "Rubik-SemiBold"
 }
 
 struct CustomFont: ViewModifier {
