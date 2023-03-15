@@ -14,6 +14,7 @@
 		76F39E6829BF60B9005A7F08 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5A29BF60B8005A7F08 /* Rubik-Regular.ttf */; };
 		76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F39E6E29BF6666005A7F08 /* FontManager.swift */; };
 		76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F39E7129BF6F99005A7F08 /* View+Extensions.swift */; };
+		76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F39E7429C20BD7005A7F08 /* SplashView.swift */; };
 		DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */; };
 		DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */; };
 		DE1EBA3929AE3FF3005F64C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1EBA3829AE3FF3005F64C3 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		76F39E5A29BF60B8005A7F08 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		76F39E6E29BF6666005A7F08 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		76F39E7129BF6F99005A7F08 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		76F39E7429C20BD7005A7F08 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		DE1EBA3129AE3FF0005F64C3 /* SnapSpire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapSpire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1EBA3429AE3FF0005F64C3 /* SnapSpireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSpireApp.swift; sourceTree = "<group>"; };
 		DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		76F39E7329C20BC4005A7F08 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				76F39E7429C20BD7005A7F08 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		DE0C8CB229AE41BE0077FDF9 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		DE0C8CB329AE41C90077FDF9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				76F39E7329C20BC4005A7F08 /* Splash */,
 				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
 			);
 			path = Features;
@@ -362,6 +373,7 @@
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
+				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
