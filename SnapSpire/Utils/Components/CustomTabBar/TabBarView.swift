@@ -1,8 +1,27 @@
 import SwiftUI
 
 struct TabBarView: View {
+    @State var selectedTab: TabItem = .home
+
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TabView(selection: $selectedTab) {
+                ForEach(TabItem.allCases, id: \.self) { tab in
+                    HStack {
+                        Image(tab.rawValue)
+                            .colorMultiply(.mint)
+                        Text(tab.rawValue.capitalized)
+                            .animation(.easeIn, value: selectedTab)
+                    }
+                }
+            }
+            Spacer()
+            CustomTabBarView(selectedTab: $selectedTab)
+        }
     }
 }
 
