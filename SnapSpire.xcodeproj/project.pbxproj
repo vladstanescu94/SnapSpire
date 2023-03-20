@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E53E29C8A91B00BB646D /* HomeCardView.swift */; };
 		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
 		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
 		7697907D29C3736C00679E10 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697907C29C3736C00679E10 /* TabItem.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7615E53E29C8A91B00BB646D /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
 		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
@@ -93,6 +95,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7615E53C29C8A8D300BB646D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7615E53D29C8A8DD00BB646D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7615E53D29C8A8DD00BB646D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7615E53E29C8A91B00BB646D /* HomeCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		76362D7C29C3215A0037B7D7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +178,7 @@
 		DE0C8CB329AE41C90077FDF9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				7615E53C29C8A8D300BB646D /* Home */,
 				76F39E7329C20BC4005A7F08 /* Splash */,
 				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
 			);
@@ -399,6 +418,7 @@
 				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
+				7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */,
 				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
