@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
+		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
+		7697907D29C3736C00679E10 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697907C29C3736C00679E10 /* TabItem.swift */; };
 		76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */; };
 		76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */; };
 		76F39E6329BF60B9005A7F08 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
 		76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
@@ -87,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76362D7C29C3215A0037B7D7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				76362D7D29C321630037B7D7 /* CustomTabBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		76362D7D29C321630037B7D7 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				76362D7E29C321900037B7D7 /* CustomTabBarView.swift */,
+				76362D8029C32E660037B7D7 /* TabBarView.swift */,
+				7697907C29C3736C00679E10 /* TabItem.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		76F39E5029BF6001005A7F08 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +126,7 @@
 		76F39E6D29BF662C005A7F08 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				76362D7C29C3215A0037B7D7 /* Components */,
 				76F39E7029BF6F7C005A7F08 /* Extensions */,
 				76F39E6E29BF6666005A7F08 /* FontManager.swift */,
 			);
@@ -371,8 +396,11 @@
 			files = (
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
+				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
+				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
+				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,7 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SnapSpire/Preview Content\"";
-				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SnapSpire;
@@ -571,7 +599,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SnapSpire/Preview Content\"";
-				DEVELOPMENT_TEAM = 7A6QR7NGZZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SnapSpire;
