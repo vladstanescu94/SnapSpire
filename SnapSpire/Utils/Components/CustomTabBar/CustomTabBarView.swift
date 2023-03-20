@@ -1,5 +1,4 @@
 import SwiftUI
-// swiftlint:disable
 
 struct CustomTabBarView: View {
     @Binding var selectedTab: TabItem
