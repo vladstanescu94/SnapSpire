@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E53E29C8A91B00BB646D /* HomeCardView.swift */; };
+		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
+		7615E54629C9AFE300BB646D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E54529C9AFE300BB646D /* User.swift */; };
 		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
 		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
 		7697907D29C3736C00679E10 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697907C29C3736C00679E10 /* TabItem.swift */; };
@@ -47,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		7615E53E29C8A91B00BB646D /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		7615E54529C9AFE300BB646D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 		7615E53C29C8A8D300BB646D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7615E54429C9AFB600BB646D /* Model */,
+				7615E54329C9AFAC00BB646D /* ViewModel */,
 				7615E53D29C8A8DD00BB646D /* View */,
 			);
 			path = Home;
@@ -109,6 +115,21 @@
 				7615E53E29C8A91B00BB646D /* HomeCardView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7615E54329C9AFAC00BB646D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7615E54429C9AFB600BB646D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7615E54529C9AFE300BB646D /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		76362D7C29C3215A0037B7D7 /* Components */ = {
@@ -137,6 +158,7 @@
 				76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */,
 				76F39E5A29BF60B8005A7F08 /* Rubik-Regular.ttf */,
 				76F39E5829BF60B8005A7F08 /* Rubik-SemiBold.ttf */,
+				7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -361,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1EBA3C29AE3FF3005F64C3 /* Preview Assets.xcassets in Resources */,
+				7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */,
 				76F39E6829BF60B9005A7F08 /* Rubik-Regular.ttf in Resources */,
 				76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */,
 				76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */,
@@ -421,6 +444,7 @@
 				7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */,
 				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
+				7615E54629C9AFE300BB646D /* User.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +611,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapSpire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SnapSpire;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -622,6 +647,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapSpire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SnapSpire;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
