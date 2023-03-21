@@ -10,6 +10,7 @@
 		7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E53E29C8A91B00BB646D /* HomeCardView.swift */; };
 		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
 		7615E54629C9AFE300BB646D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E54529C9AFE300BB646D /* User.swift */; };
+		7615E54C29C9FA2300BB646D /* HomeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E54B29C9FA2300BB646D /* HomeListView.swift */; };
 		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
 		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
 		768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E8C7F29CB15E000AD1D59 /* UIConstants.swift */; };
@@ -52,6 +53,7 @@
 		7615E53E29C8A91B00BB646D /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
 		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		7615E54529C9AFE300BB646D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7615E54B29C9FA2300BB646D /* HomeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListView.swift; sourceTree = "<group>"; };
 		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		768E8C7F29CB15E000AD1D59 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
@@ -105,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				7615E54429C9AFB600BB646D /* Model */,
-				7615E54329C9AFAC00BB646D /* ViewModel */,
 				7615E53D29C8A8DD00BB646D /* View */,
 			);
 			path = Home;
@@ -117,13 +118,6 @@
 				7615E53E29C8A91B00BB646D /* HomeCardView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		7615E54329C9AFAC00BB646D /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		7615E54429C9AFB600BB646D /* Model */ = {
@@ -222,6 +216,7 @@
 				7615E53C29C8A8D300BB646D /* Home */,
 				76F39E7329C20BC4005A7F08 /* Splash */,
 				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
+				7615E54B29C9FA2300BB646D /* HomeListView.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -458,6 +453,7 @@
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
 				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
+				7615E54C29C9FA2300BB646D /* HomeListView.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
 				7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */,
