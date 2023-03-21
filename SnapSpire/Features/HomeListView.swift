@@ -1,5 +1,4 @@
 import SwiftUI
-// swiftformat disable
 
 struct HomeListView: View {
     let columns = [GridItem(.flexible())]
