@@ -460,8 +460,8 @@
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
 				7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */,
 				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
+				7656BCC829CB4AB6002C4C8B /* User.swift in Sources */,
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
-				7615E54629C9AFE300BB646D /* User.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
 				768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */,
 			);
