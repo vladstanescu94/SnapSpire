@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: GitHub Actions for SwiftLint
-        uses: sinoru/actions-swiftlint@v6
       - name: GitHub Actions for SwiftLint with --strict
         uses: sinoru/actions-swiftlint@v6
         with:
@@ -22,3 +20,7 @@ jobs:
         uses: sinoru/actions-swiftlint@v6
         env:
           DIFF_BASE: ${{ github.base_ref }}
+      - name: GitHub Actions for SwiftLint (Different working directory)
+        uses: sinoru/actions-swiftlint@v6
+        with:
+          working-directory: Sources
