@@ -12,6 +12,7 @@
 		7615E54629C9AFE300BB646D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E54529C9AFE300BB646D /* User.swift */; };
 		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
 		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
+		768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E8C7F29CB15E000AD1D59 /* UIConstants.swift */; };
 		7697907D29C3736C00679E10 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697907C29C3736C00679E10 /* TabItem.swift */; };
 		76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */; };
 		76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */; };
@@ -53,6 +54,7 @@
 		7615E54529C9AFE300BB646D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		768E8C7F29CB15E000AD1D59 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
@@ -150,6 +152,22 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		768E8C7D29CB15B100AD1D59 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				768E8C7E29CB15C100AD1D59 /* Layout */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		768E8C7E29CB15C100AD1D59 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				768E8C7F29CB15E000AD1D59 /* UIConstants.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		76F39E5029BF6001005A7F08 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +184,7 @@
 		76F39E6D29BF662C005A7F08 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				768E8C7D29CB15B100AD1D59 /* DesignSystem */,
 				76362D7C29C3215A0037B7D7 /* Components */,
 				76F39E7029BF6F7C005A7F08 /* Extensions */,
 				76F39E6E29BF6666005A7F08 /* FontManager.swift */,
@@ -446,6 +465,7 @@
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
 				7615E54629C9AFE300BB646D /* User.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
+				768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
