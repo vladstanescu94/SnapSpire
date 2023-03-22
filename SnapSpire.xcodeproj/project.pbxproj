@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E53E29C8A91B00BB646D /* HomeCardView.swift */; };
+		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
+		7615E54629C9AFE300BB646D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615E54529C9AFE300BB646D /* User.swift */; };
 		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
 		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
+		768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E8C7F29CB15E000AD1D59 /* UIConstants.swift */; };
 		7697907D29C3736C00679E10 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697907C29C3736C00679E10 /* TabItem.swift */; };
 		76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */; };
 		76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */; };
@@ -45,8 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7615E53E29C8A91B00BB646D /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		7615E54529C9AFE300BB646D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		768E8C7F29CB15E000AD1D59 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
@@ -93,6 +101,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7615E53C29C8A8D300BB646D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7615E54429C9AFB600BB646D /* Model */,
+				7615E54329C9AFAC00BB646D /* ViewModel */,
+				7615E53D29C8A8DD00BB646D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7615E53D29C8A8DD00BB646D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7615E53E29C8A91B00BB646D /* HomeCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7615E54329C9AFAC00BB646D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7615E54429C9AFB600BB646D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7615E54529C9AFE300BB646D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		76362D7C29C3215A0037B7D7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +152,22 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		768E8C7D29CB15B100AD1D59 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				768E8C7E29CB15C100AD1D59 /* Layout */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		768E8C7E29CB15C100AD1D59 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				768E8C7F29CB15E000AD1D59 /* UIConstants.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		76F39E5029BF6001005A7F08 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +176,7 @@
 				76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */,
 				76F39E5A29BF60B8005A7F08 /* Rubik-Regular.ttf */,
 				76F39E5829BF60B8005A7F08 /* Rubik-SemiBold.ttf */,
+				7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -126,6 +184,7 @@
 		76F39E6D29BF662C005A7F08 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				768E8C7D29CB15B100AD1D59 /* DesignSystem */,
 				76362D7C29C3215A0037B7D7 /* Components */,
 				76F39E7029BF6F7C005A7F08 /* Extensions */,
 				76F39E6E29BF6666005A7F08 /* FontManager.swift */,
@@ -160,6 +219,7 @@
 		DE0C8CB329AE41C90077FDF9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				7615E53C29C8A8D300BB646D /* Home */,
 				76F39E7329C20BC4005A7F08 /* Splash */,
 				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
 			);
@@ -342,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1EBA3C29AE3FF3005F64C3 /* Preview Assets.xcassets in Resources */,
+				7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */,
 				76F39E6829BF60B9005A7F08 /* Rubik-Regular.ttf in Resources */,
 				76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */,
 				76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */,
@@ -399,9 +460,12 @@
 				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
+				7615E53F29C8A91B00BB646D /* HomeCardView.swift in Sources */,
 				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
+				7615E54629C9AFE300BB646D /* User.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
+				768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +631,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapSpire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SnapSpire;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -602,6 +667,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapSpire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SnapSpire;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

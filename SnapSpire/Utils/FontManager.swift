@@ -3,6 +3,7 @@ import SwiftUI
 enum GeneralFonts: String {
     case rubikBold = "Rubik-Bold"
     case rubikItalic = "Rubik-Italic"
+    case rubikLightItalic = "Rubik-LightItalic"
     case rubikLight = "Rubik-Light"
     case rubikRegular = "Rubik-Regular"
     case rubikSemiBold = "Rubik-SemiBold"
