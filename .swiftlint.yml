@@ -12,3 +12,6 @@ analyzer_rules: # Rules run by `swiftlint analyze` (experimental)
 
 line_length: 
   ignores_comments: true
+  
+disabled_rules:
+  - trailing_comma
