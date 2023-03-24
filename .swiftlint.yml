@@ -15,4 +15,3 @@ line_length:
   
 disabled_rules:
   - trailing_comma
-  - trailing_whitespace
