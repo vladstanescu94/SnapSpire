@@ -9,9 +9,9 @@ struct HomeListView: View {
                 VStack {
                     ForEach(user, id: \.self) { item in
                         NavigationLink {
-                            Text("Details for \(item.name)'s post")
+                            Text("Details for post")
                         } label: {
-                            SampleCardView(name: item.name, profileColor: item.profileColor, postColor: item.postColor)
+                            HomeCardView(user: item)
                                 .padding()
                         }
                     }

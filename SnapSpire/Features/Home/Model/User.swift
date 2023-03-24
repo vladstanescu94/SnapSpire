@@ -1,6 +1,6 @@
 import Foundation
 
-struct User {
+struct User: Hashable {
     var userProfileImage: String
     var userName: String
     var userPostImage: String
