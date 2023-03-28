@@ -7,15 +7,15 @@ struct HomeListView: View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    ForEach(user, id: \.self) { item in
-                        NavigationLink {
-                            Text("Details for post")
-                        } label: {
-                            HomeCardView(user: item)
-                                .padding()
+                    ForEach(user, id: \.self) { user in
+                        NavigationLink(value: user) {
+                            HomeCardView(user: user)
                         }
+                    }.navigationDestination(for: User.self) { user in
+                        Text(user.userName)
                     }
                 }
+                .padding(.bottom, 60)
             }
         }
     }
