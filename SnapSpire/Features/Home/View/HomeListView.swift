@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct HomeListView: View {
+
     @State private var searchText = ""
 
     let user = User.sampleData
