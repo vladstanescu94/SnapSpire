@@ -3,6 +3,7 @@
 --guardelse next-line
 --allman false
 --elseposition same-line
+--trimwhitespace nonblank-lines
 
 #rules
 
