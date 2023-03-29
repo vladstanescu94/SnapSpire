@@ -13,7 +13,7 @@ struct User: Hashable, Identifiable {
 extension User {
     static let sampleData: [User] = [
         User(userProfileImage: "Avatar", userName: "Thanh Pham", userPostImage: "Photo", timePosting: "1 hour ago"),
-        User(userProfileImage: "Avatar", userName: "Thanh Pham", userPostImage: "Photo", timePosting: "1 hour ago"),
-        User(userProfileImage: "Avatar", userName: "Thanh Pham", userPostImage: "Photo", timePosting: "1 hour ago"),
+        User(userProfileImage: "Avatar", userName: "Erica Pham", userPostImage: "Photo", timePosting: "2 hour ago"),
+        User(userProfileImage: "Avatar", userName: "Anna Pham", userPostImage: "Photo", timePosting: "3 hour ago"),
     ]
 }
