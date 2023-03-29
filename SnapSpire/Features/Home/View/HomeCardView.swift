@@ -35,14 +35,14 @@ struct HomeCardView: View {
 
             Text(user.userName)
                 .customFont(font: .rubikItalic, size: UIConstants.mediumSize)
-                .foregroundColor(Color("primaryText"))
+                .foregroundColor(.primaryText)
                 .shadow(radius: 4, y: 4)
 
             Spacer()
 
             Text(user.timePosting)
                 .customFont(font: .rubikItalic)
-                .foregroundColor(Color("placeholder"))
+                .foregroundColor(.placeholder)
         }
         .padding(.horizontal, UIConstants.smallPadding)
     }
@@ -54,12 +54,12 @@ struct HomeCardView: View {
 
             Text("\(user.numberComments)")
                 .customFont(font: .rubikItalic)
-                .foregroundColor(Color("secondaryText"))
+                .foregroundColor(.secondaryText)
             Image("chat")
 
             Text("\(user.numberLikes)")
                 .customFont(font: .rubikItalic)
-                .foregroundColor(Color("secondaryText"))
+                .foregroundColor(.secondaryText)
             Image("heart")
         }
         .padding(.horizontal, UIConstants.smallPadding)
