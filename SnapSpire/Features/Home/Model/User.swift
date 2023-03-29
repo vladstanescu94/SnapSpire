@@ -1,6 +1,7 @@
 import Foundation
 
-struct User {
+struct User: Hashable, Identifiable {
+    var id = UUID()
     var userProfileImage: String
     var userName: String
     var userPostImage: String
