@@ -4,7 +4,7 @@ struct HomeListView: View {
     @State private var searchText = ""
 
     let user = User.sampleData
-    
+
     var filteredUsers: [User] {
         if searchText.isEmpty {
             return user
