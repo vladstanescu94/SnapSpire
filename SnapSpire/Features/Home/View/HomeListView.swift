@@ -2,7 +2,15 @@ import SwiftUI
 
 struct HomeListView: View {
     @State private var searchText = ""
+
     let user = User.sampleData
+    var filteredUsers: [User] {
+        if searchText.isEmpty {
+            return user
+        } else {
+            return user.filter { $0.userName.localizedCaseInsensitiveContains(searchText) }
+        }
+    }
 
     var body: some View {
         NavigationStack {
@@ -21,14 +29,6 @@ struct HomeListView: View {
             }
         }
         .searchable(text: $searchText)
-    }
-
-    var filteredUsers: [User] {
-        if searchText.isEmpty {
-            return user
-        } else {
-            return user.filter { $0.userName.localizedCaseInsensitiveContains(searchText) }
-        }
     }
 }
 
