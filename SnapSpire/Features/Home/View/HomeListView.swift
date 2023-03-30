@@ -17,6 +17,8 @@ struct HomeListView: View {
         NavigationStack {
             ScrollView {
                 VStack {
+                    PickerView()
+
                     ForEach(filteredUsers, id: \.self) { user in
                         NavigationLink(value: user) {
                             HomeCardView(user: user)
