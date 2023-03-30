@@ -17,6 +17,9 @@
 		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
 		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
 		765F92E429D456000045837A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92E329D456000045837A /* Color+Extension.swift */; };
+		765F92E729D5A2C50045837A /* CategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92E629D5A2C50045837A /* CategoryPicker.swift */; };
+		765F92E929D5A5260045837A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92E829D5A5260045837A /* PickerView.swift */; };
+		765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */; };
 		768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E8C7F29CB15E000AD1D59 /* UIConstants.swift */; };
 		7697907D29C3736C00679E10 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697907C29C3736C00679E10 /* TabItem.swift */; };
 		76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */; };
@@ -64,6 +67,9 @@
 		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		765F92E329D456000045837A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		765F92E629D5A2C50045837A /* CategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPicker.swift; sourceTree = "<group>"; };
+		765F92E829D5A5260045837A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
 		768E8C7F29CB15E000AD1D59 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
@@ -156,6 +162,7 @@
 		76362D7C29C3215A0037B7D7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				765F92E529D5A2620045837A /* Picker */,
 				76362D7D29C321630037B7D7 /* CustomTabBar */,
 			);
 			path = Components;
@@ -170,6 +177,15 @@
 				76299C4229CDFFA9006D96FC /* CustomTabBarContainerView.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		765F92E529D5A2620045837A /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				765F92E629D5A2C50045837A /* CategoryPicker.swift */,
+				765F92E829D5A5260045837A /* PickerView.swift */,
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 		768E8C7D29CB15B100AD1D59 /* DesignSystem */ = {
@@ -218,6 +234,7 @@
 			children = (
 				76F39E7129BF6F99005A7F08 /* View+Extensions.swift */,
 				765F92E329D456000045837A /* Color+Extension.swift */,
+				765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -480,8 +497,10 @@
 			files = (
 				76299C2C29CDCF03006D96FC /* User.swift in Sources */,
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
+				765F92E929D5A5260045837A /* PickerView.swift in Sources */,
 				76299C3529CDD949006D96FC /* HomeView.swift in Sources */,
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
+				765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */,
 				76299C4329CDFFA9006D96FC /* CustomTabBarContainerView.swift in Sources */,
 				76299C4129CDFD90006D96FC /* TabBarModifier.swift in Sources */,
 				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
@@ -491,6 +510,7 @@
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
 				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
+				765F92E729D5A2C50045837A /* CategoryPicker.swift in Sources */,
 				76299C3029CDCF08006D96FC /* HomeListView.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
 				768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */,
