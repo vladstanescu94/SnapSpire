@@ -21,15 +21,7 @@ struct PickerView: View {
                 .padding(.horizontal)
                 .background(.white)
                 .pickerStyle(.segmented)
-
-//                CategoryPicker(selectedCategory: userCategory)
             }
         }
     }
 }
-
-// struct PickerView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        PickerView(catagory: .constant(.trending))
-//    }
-// }
