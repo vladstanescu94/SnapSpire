@@ -10,11 +10,11 @@ struct CategoryPicker: View {
     var body: some View {
         switch selectedCategory {
         case .popular:
-            EmptyView()
+            HomeListView()
         case .trending:
-            EmptyView()
+            View2()
         case .following:
-            EmptyView()
+            View3()
         }
     }
 }
