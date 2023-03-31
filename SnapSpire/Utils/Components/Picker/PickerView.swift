@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct PickerView: View {
-    @State private var userCategory: Categories = .popular
+    @Binding var userCategory: Categories
 
     var body: some View {
         NavigationStack {
@@ -22,14 +22,14 @@ struct PickerView: View {
                 .background(.white)
                 .pickerStyle(.segmented)
 
-                CategoryPicker(selectedCategory: userCategory)
+//                CategoryPicker(selectedCategory: userCategory)
             }
         }
     }
 }
 
-struct PickerView_Previews: PreviewProvider {
-    static var previews: some View {
-        PickerView()
-    }
-}
+// struct PickerView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        PickerView(catagory: .constant(.trending))
+//    }
+// }

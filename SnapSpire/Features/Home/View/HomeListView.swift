@@ -2,6 +2,7 @@ import SwiftUI
 
 struct HomeListView: View {
     @State private var searchText = ""
+    @State var selectedCaregory: Categories = .popular
 
     let user = User.sampleData
 
@@ -17,13 +18,22 @@ struct HomeListView: View {
         NavigationStack {
             ScrollView {
                 VStack {
-                    ForEach(filteredUsers, id: \.self) { user in
-                        NavigationLink(value: user) {
-                            HomeCardView(user: user)
+                    PickerView(userCategory: $selectedCaregory)
+
+                    if selectedCaregory == .popular {
+                        ForEach(filteredUsers, id: \.self) { user in
+                            NavigationLink(value: user) {
+                                HomeCardView(user: user)
+                            }
                         }
-                    }
-                    .navigationDestination(for: User.self) { user in
-                        Text(user.userName)
+                        .navigationDestination(for: User.self) { user in
+                            Text(user.userName)
+                        }
+                    } else if selectedCaregory == .following {
+                        CategoryPicker(selectedCategory: .following)
+
+                    } else {
+                        CategoryPicker(selectedCategory: .trending)
                     }
                 }
                 .padding(.bottom, 60)
