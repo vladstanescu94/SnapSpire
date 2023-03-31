@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7609F3DD29D5D3640027B4DA /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609F3DC29D5D3640027B4DA /* View2.swift */; };
+		7609F3DF29D5D41F0027B4DA /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609F3DE29D5D41F0027B4DA /* View3.swift */; };
 		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
 		76299C2C29CDCF03006D96FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2B29CDCF03006D96FC /* User.swift */; };
 		76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2D29CDCF05006D96FC /* HomeCardView.swift */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7609F3DC29D5D3640027B4DA /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		7609F3DE29D5D41F0027B4DA /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		76299C2B29CDCF03006D96FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76299C2D29CDCF05006D96FC /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
@@ -184,6 +188,8 @@
 			children = (
 				765F92E629D5A2C50045837A /* CategoryPicker.swift */,
 				765F92E829D5A5260045837A /* PickerView.swift */,
+				7609F3DC29D5D3640027B4DA /* View2.swift */,
+				7609F3DE29D5D41F0027B4DA /* View3.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -497,8 +503,10 @@
 			files = (
 				76299C2C29CDCF03006D96FC /* User.swift in Sources */,
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
+				7609F3DF29D5D41F0027B4DA /* View3.swift in Sources */,
 				765F92E929D5A5260045837A /* PickerView.swift in Sources */,
 				76299C3529CDD949006D96FC /* HomeView.swift in Sources */,
+				7609F3DD29D5D3640027B4DA /* View2.swift in Sources */,
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
 				765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */,
 				76299C4329CDFFA9006D96FC /* CustomTabBarContainerView.swift in Sources */,
