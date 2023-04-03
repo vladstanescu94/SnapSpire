@@ -1,5 +1,11 @@
 import SwiftUI
 
+enum Categories: String, CaseIterable {
+    case popular
+    case trending
+    case following
+}
+
 struct PickerView: View {
     @Binding var userCategory: Categories
 

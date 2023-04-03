@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7609F3DD29D5D3640027B4DA /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609F3DC29D5D3640027B4DA /* View2.swift */; };
-		7609F3DF29D5D41F0027B4DA /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609F3DE29D5D41F0027B4DA /* View3.swift */; };
 		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
 		76299C2C29CDCF03006D96FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2B29CDCF03006D96FC /* User.swift */; };
 		76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2D29CDCF05006D96FC /* HomeCardView.swift */; };
@@ -19,7 +17,6 @@
 		76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D7E29C321900037B7D7 /* CustomTabBarView.swift */; };
 		76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76362D8029C32E660037B7D7 /* TabBarView.swift */; };
 		765F92E429D456000045837A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92E329D456000045837A /* Color+Extension.swift */; };
-		765F92E729D5A2C50045837A /* CategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92E629D5A2C50045837A /* CategoryPicker.swift */; };
 		765F92E929D5A5260045837A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92E829D5A5260045837A /* PickerView.swift */; };
 		765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */; };
 		768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E8C7F29CB15E000AD1D59 /* UIConstants.swift */; };
@@ -59,8 +56,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7609F3DC29D5D3640027B4DA /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
-		7609F3DE29D5D41F0027B4DA /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		76299C2B29CDCF03006D96FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76299C2D29CDCF05006D96FC /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
@@ -71,7 +66,6 @@
 		76362D7E29C321900037B7D7 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		76362D8029C32E660037B7D7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		765F92E329D456000045837A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		765F92E629D5A2C50045837A /* CategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPicker.swift; sourceTree = "<group>"; };
 		765F92E829D5A5260045837A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
 		768E8C7F29CB15E000AD1D59 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
@@ -186,10 +180,7 @@
 		765F92E529D5A2620045837A /* Picker */ = {
 			isa = PBXGroup;
 			children = (
-				765F92E629D5A2C50045837A /* CategoryPicker.swift */,
 				765F92E829D5A5260045837A /* PickerView.swift */,
-				7609F3DC29D5D3640027B4DA /* View2.swift */,
-				7609F3DE29D5D41F0027B4DA /* View3.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -503,10 +494,8 @@
 			files = (
 				76299C2C29CDCF03006D96FC /* User.swift in Sources */,
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
-				7609F3DF29D5D41F0027B4DA /* View3.swift in Sources */,
 				765F92E929D5A5260045837A /* PickerView.swift in Sources */,
 				76299C3529CDD949006D96FC /* HomeView.swift in Sources */,
-				7609F3DD29D5D3640027B4DA /* View2.swift in Sources */,
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
 				765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */,
 				76299C4329CDFFA9006D96FC /* CustomTabBarContainerView.swift in Sources */,
@@ -518,7 +507,6 @@
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
 				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,
-				765F92E729D5A2C50045837A /* CategoryPicker.swift in Sources */,
 				76299C3029CDCF08006D96FC /* HomeListView.swift in Sources */,
 				76F39E7529C20BD7005A7F08 /* SplashView.swift in Sources */,
 				768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */,

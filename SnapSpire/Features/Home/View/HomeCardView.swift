@@ -55,7 +55,7 @@ struct HomeCardView: View {
             Text("\(user.numberComments)")
                 .customFont(font: .rubikItalic)
                 .foregroundColor(.secondaryText)
-            Image("chat")
+            Image("Chat")
 
             Text("\(user.numberLikes)")
                 .customFont(font: .rubikItalic)
