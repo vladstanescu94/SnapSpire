@@ -8,6 +8,7 @@ struct User: Hashable, Identifiable {
     var timePosting: String
     var numberComments: Int = 0
     var numberLikes: Int = 0
+    var url: URL = .init(string: "https://trello.com/b/MYbaJqxA/snapspire")!
 }
 
 extension User {
