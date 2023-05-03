@@ -6,12 +6,12 @@ struct PurchaseView: View {
     @State var products: [Product] = []
 
     var body: some View {
-        ForEach(products) { product in
-            VStack {
-                Text("Products")
+        VStack {
+            Text("Products")
 
+            ForEach(products) { product in
                 Button {
-                    // acion
+                    // action
                 } label: {
                     Text("\(product.displayPrice) - \(product.displayName)")
                         .foregroundColor(.white)
@@ -20,7 +20,18 @@ struct PurchaseView: View {
                         .clipShape(Capsule())
                 }
             }
+        }.task {
+            do {
+                try await loadProducts()
+            } catch {
+                print(error)
+            }
         }
+    }
+
+    private func loadProducts() async throws {
+        // Products are not returned in the order the ids are requested
+        products = try await Product.products(for: productIds)
     }
 }
 

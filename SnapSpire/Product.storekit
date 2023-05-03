@@ -5,7 +5,7 @@
   ],
   "products" : [
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "100",
       "familyShareable" : false,
       "internalID" : "C325339C",
       "localizations" : [
@@ -20,7 +20,7 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "5.99",
       "familyShareable" : false,
       "internalID" : "0956E091",
       "localizations" : [
