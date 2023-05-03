@@ -12,6 +12,9 @@ struct SnapSpireApp: App {
             } else {
                 ContentView()
                     .environmentObject(purchaseManager)
+                    .task {
+                        await purchaseManager.updatePurchasedProducts()
+                    }
             }
         }
     }

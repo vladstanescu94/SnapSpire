@@ -6,7 +6,12 @@ struct PurchaseView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            Text("Products")
+            if purchaseManager.hasUnlockedPro {
+                Text("Thank you for purchasing pro!")
+            } else {
+                Text("Products")
+            }
+
             ForEach(purchaseManager.products) { product in
                 Button {
                     Task {
