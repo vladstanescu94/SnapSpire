@@ -68,6 +68,7 @@
 		765F92E329D456000045837A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		765F92E829D5A5260045837A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
+		7676E2BD2A023FAB002A237A /* Product.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Product.storekit; sourceTree = "<group>"; };
 		768E8C7F29CB15E000AD1D59 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
@@ -300,6 +301,7 @@
 				DE1EBA3A29AE3FF3005F64C3 /* Preview Content */,
 				76F39E6D29BF662C005A7F08 /* Utils */,
 				DE0C8CB429AE41D80077FDF9 /* Resources */,
+				7676E2BD2A023FAB002A237A /* Product.storekit */,
 			);
 			path = SnapSpire;
 			sourceTree = "<group>";
