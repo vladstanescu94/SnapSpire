@@ -1,6 +1,7 @@
 import Foundation
 import StoreKit
 
+ @MainActor
 class PurchaseManager: ObservableObject {
     private let productIds = ["pro_yearly", "pro_lifetime"]
 
