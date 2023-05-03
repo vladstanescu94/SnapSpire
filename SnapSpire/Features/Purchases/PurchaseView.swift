@@ -6,12 +6,13 @@ struct PurchaseView: View {
     @State var products: [Product] = []
 
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             Text("Products")
-
             ForEach(products) { product in
                 Button {
-                    // action
+                    Task {
+                        try await purchase(product)
+                    }
                 } label: {
                     Text("\(product.displayPrice) - \(product.displayName)")
                         .foregroundColor(.white)
@@ -33,10 +34,21 @@ struct PurchaseView: View {
         // Products are not returned in the order the ids are requested
         products = try await Product.products(for: productIds)
     }
-}
 
-struct PurchaseView_Previews: PreviewProvider {
-    static var previews: some View {
-        PurchaseView()
+    private func purchase(_ product: Product) async throws {
+        let result = try await product.purchase()
+
+        switch result {
+        case let .success(.verified(transaction)):
+            await transaction.finish()
+        case .success(.unverified(_, _)):
+            break
+        case .pending:
+            break
+        case .userCancelled:
+            break
+        @unknown default:
+            break
+        }
     }
 }
