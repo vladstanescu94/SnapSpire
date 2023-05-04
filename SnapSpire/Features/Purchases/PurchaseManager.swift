@@ -4,6 +4,7 @@ import StoreKit
 @MainActor
 class PurchaseManager: ObservableObject {
     private let productIds = ["pro_yearly", "pro_lifetime"]
+    private let entitlementManager: EntitlementManager
 
     @Published var products: [Product] = []
     @Published var isProductsLoaded: Bool = false
@@ -11,16 +12,13 @@ class PurchaseManager: ObservableObject {
 
     private var updates: Task<Void, Never>?
 
-    init() {
+    init(entitlementManager: EntitlementManager) {
+        self.entitlementManager = entitlementManager
         updates = observeTransactionUpdates()
     }
 
     deinit {
         updates?.cancel()
-    }
-
-    var hasUnlockedPro: Bool {
-        !purchasedProductIDs.isEmpty
     }
 
     func loadProduct() async throws {
@@ -58,6 +56,7 @@ class PurchaseManager: ObservableObject {
             } else {
                 purchasedProductIDs.remove(transaction.productID)
             }
+            entitlementManager.hasPro = !purchasedProductIDs.isEmpty
         }
     }
 
