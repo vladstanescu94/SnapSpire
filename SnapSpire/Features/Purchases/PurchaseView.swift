@@ -4,7 +4,7 @@ import SwiftUI
 struct PurchaseView: View {
     @EnvironmentObject private var purchaseManager: PurchaseManager
     @EnvironmentObject private var entitlementManager: EntitlementManager
-
+    
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
@@ -12,7 +12,7 @@ struct PurchaseView: View {
                     Text("Thank you for purchasing pro!")
                 } else {
                     Text("Products")
-
+                    
                     ForEach(purchaseManager.products) { product in
                         Button {
                             Task {
@@ -27,7 +27,7 @@ struct PurchaseView: View {
                         }
                     }
                 }
-
+                
                 Button {
                     Task {
                         try await AppStore.sync()
@@ -35,12 +35,21 @@ struct PurchaseView: View {
                 } label: {
                     Text("Restore Purchases")
                 }
-
+                
             }.task {
                 do {
                     try await purchaseManager.loadProduct()
                 } catch {
                     print(error)
+                }
+                
+                
+                
+                let entitlementManager = EntitlementManager()
+                if entitlementManager.hasPro {
+                    // Do something
+                } else {
+                    // Don't do something
                 }
             }
         }
