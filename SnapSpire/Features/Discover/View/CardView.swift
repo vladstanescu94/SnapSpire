@@ -1,23 +1,21 @@
 import SwiftUI
 
-struct TopicView: View {
+struct CardView: View {
     var image: String
     var name: String
+    var imageWidth: CGFloat
+    var imageHeight: CGFloat
 
     var body: some View {
         ZStack {
             Image(image)
+                .resizable()
+                .frame(width: imageWidth, height: imageHeight)
                 .cornerRadius(10)
 
             Text(name.uppercased())
                 .customFont(font: .rubikBold)
                 .foregroundColor(.white)
         }
-    }
-}
-
-struct TopicView_Previews: PreviewProvider {
-    static var previews: some View {
-        TopicView(image: "photography", name: "photography")
     }
 }
