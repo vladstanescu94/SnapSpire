@@ -13,7 +13,6 @@ struct SectionListView<Model>: View where Model: SectionListViewMoldeProtocol {
     var imageHeight: CGFloat
 
     var body: some View {
-        NavigationView {
         VStack {
             SectionView(sectionName: sectionName, sectionAction: { sectionAction() })
 
@@ -30,6 +29,5 @@ struct SectionListView<Model>: View where Model: SectionListViewMoldeProtocol {
             }
         }
         .padding(.horizontal, 16)
-        }
     }
 }
