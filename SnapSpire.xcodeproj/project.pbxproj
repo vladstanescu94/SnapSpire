@@ -60,8 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSectionView.swift; sourceTree = "<group>"; };
+		7613DD632A31D9FA003C39C0 /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
 		7613DD652A31E21C003C39C0 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		7613DD672A31E49D003C39C0 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		7613DD692A31EEC5003C39C0 /* TopicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewModel.swift; sourceTree = "<group>"; };
+		7613DD6B2A31EED6003C39C0 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
 		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		76299C2B29CDCF03006D96FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76299C2D29CDCF05006D96FC /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
@@ -223,8 +226,9 @@
 			children = (
 				76A754332A31CD1F008F3294 /* DiscoverView.swift */,
 				76A754352A31CFBD008F3294 /* TopicView.swift */,
-				7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */,
+				7613DD632A31D9FA003C39C0 /* SectionListView.swift */,
 				7613DD652A31E21C003C39C0 /* SectionView.swift */,
+				7613DD672A31E49D003C39C0 /* CollectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -232,6 +236,8 @@
 		76A754322A31CC52008F3294 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7613DD692A31EEC5003C39C0 /* TopicsViewModel.swift */,
+				7613DD6B2A31EED6003C39C0 /* CollectionViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -532,16 +538,19 @@
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
 				7613DD662A31E21C003C39C0 /* SectionView.swift in Sources */,
 				765F92E929D5A5260045837A /* PickerView.swift in Sources */,
+				7613DD682A31E49D003C39C0 /* CollectionView.swift in Sources */,
 				76299C3529CDD949006D96FC /* HomeView.swift in Sources */,
 				76A754362A31CFBD008F3294 /* TopicView.swift in Sources */,
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
 				765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */,
+				7613DD6C2A31EED6003C39C0 /* CollectionViewModel.swift in Sources */,
 				76299C4329CDFFA9006D96FC /* CustomTabBarContainerView.swift in Sources */,
 				76299C4129CDFD90006D96FC /* TabBarModifier.swift in Sources */,
 				76A754342A31CD1F008F3294 /* DiscoverView.swift in Sources */,
 				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
 				765F92E429D456000045837A /* Color+Extension.swift in Sources */,
-				7613DD642A31D9FA003C39C0 /* TopicSectionView.swift in Sources */,
+				7613DD6A2A31EEC5003C39C0 /* TopicsViewModel.swift in Sources */,
+				7613DD642A31D9FA003C39C0 /* SectionListView.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
