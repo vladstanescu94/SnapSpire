@@ -4,7 +4,7 @@ struct DiscoverView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack(spacing: 24) {
+                VStack(spacing: UIConstants.extraLargeSize) {
                     SectionListView(viewModel: TopicsViewModel(),
                                     sectionName: "Topic",
                                     sectionAction: {},

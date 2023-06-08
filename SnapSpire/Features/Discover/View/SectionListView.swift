@@ -28,6 +28,6 @@ struct SectionListView<Model>: View where Model: SectionListViewMoldeProtocol {
                 }
             }
         }
-        .padding(.horizontal, 16)
+        .padding(.horizontal, UIConstants.mediumPadding)
     }
 }

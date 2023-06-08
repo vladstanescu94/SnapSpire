@@ -7,7 +7,7 @@ struct SectionView: View {
     var body: some View {
         HStack {
             Text(sectionName)
-                .customFont(font: .rubikBold, size: 20)
+                .customFont(font: .rubikBold, size: UIConstants.largeSize)
 
             Spacer()
 
@@ -15,7 +15,7 @@ struct SectionView: View {
                 sectionAction()
             } label: {
                 Text("View More")
-                    .customFont(font: .rubikLightItalic, size: 14)
+                    .customFont(font: .rubikLightItalic, size: UIConstants.intermediateSize)
                     .foregroundColor(.primary)
             }
         }
