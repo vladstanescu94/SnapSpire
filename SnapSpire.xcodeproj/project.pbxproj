@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7613DD642A31D9FA003C39C0 /* TopicSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */; };
+		7613DD662A31E21C003C39C0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD652A31E21C003C39C0 /* SectionView.swift */; };
 		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
 		76299C2C29CDCF03006D96FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2B29CDCF03006D96FC /* User.swift */; };
 		76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2D29CDCF05006D96FC /* HomeCardView.swift */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSectionView.swift; sourceTree = "<group>"; };
+		7613DD652A31E21C003C39C0 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		76299C2B29CDCF03006D96FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76299C2D29CDCF05006D96FC /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				76A754332A31CD1F008F3294 /* DiscoverView.swift */,
 				76A754352A31CFBD008F3294 /* TopicView.swift */,
 				7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */,
+				7613DD652A31E21C003C39C0 /* SectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -527,6 +530,7 @@
 			files = (
 				76299C2C29CDCF03006D96FC /* User.swift in Sources */,
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
+				7613DD662A31E21C003C39C0 /* SectionView.swift in Sources */,
 				765F92E929D5A5260045837A /* PickerView.swift in Sources */,
 				76299C3529CDD949006D96FC /* HomeView.swift in Sources */,
 				76A754362A31CFBD008F3294 /* TopicView.swift in Sources */,

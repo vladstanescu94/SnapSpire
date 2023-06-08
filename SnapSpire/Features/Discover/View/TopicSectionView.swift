@@ -6,21 +6,8 @@ struct TopicSectionView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HStack {
-                    Text("Topic")
-                        .customFont(font: .rubikBold, size: 20)
-
-                    Spacer()
-
-                    Button {
-                        // view more topics
-                    } label: {
-                        Text("View More")
-                            .customFont(font: .rubikLightItalic, size: 14)
-                            .foregroundColor(.primary)
-                    }
-                }
-
+                SectionView(sectionName: "Topic", sectionAction: {})
+                
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
                         ForEach(topics, id: \.self) { topic in
