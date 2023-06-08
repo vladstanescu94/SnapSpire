@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7613DD642A31D9FA003C39C0 /* TopicSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */; };
 		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
 		76299C2C29CDCF03006D96FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2B29CDCF03006D96FC /* User.swift */; };
 		76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2D29CDCF05006D96FC /* HomeCardView.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSectionView.swift; sourceTree = "<group>"; };
 		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		76299C2B29CDCF03006D96FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76299C2D29CDCF05006D96FC /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			children = (
 				76A754332A31CD1F008F3294 /* DiscoverView.swift */,
 				76A754352A31CFBD008F3294 /* TopicView.swift */,
+				7613DD632A31D9FA003C39C0 /* TopicSectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				76A754342A31CD1F008F3294 /* DiscoverView.swift in Sources */,
 				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
 				765F92E429D456000045837A /* Color+Extension.swift in Sources */,
+				7613DD642A31D9FA003C39C0 /* TopicSectionView.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
