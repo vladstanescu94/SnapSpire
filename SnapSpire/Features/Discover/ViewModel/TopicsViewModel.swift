@@ -1,8 +1,5 @@
-//
-//  TopicsViewModel.swift
-//  SnapSpire
-//
-//  Created by Camelia Braghes on 08.06.2023.
-//
-
 import Foundation
+
+final class TopicsViewModel: SectionListViewMoldeProtocol {
+    let topics = ["photography", "ilustration", "ui design", "photography"]
+}

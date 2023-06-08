@@ -2,7 +2,23 @@ import SwiftUI
 
 struct DiscoverView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 0) {
+                    SectionListView(viewModel: TopicsViewModel(),
+                                    sectionName: "Topic",
+                                    sectionAction: {},
+                                    imageWidth: 150,
+                                    imageHeight: 100)
+
+                    SectionListView(viewModel: CollectionViewModel(),
+                                    sectionName: "Section",
+                                    sectionAction: {},
+                                    imageWidth: 158,
+                                    imageHeight: 158)
+                }
+            }
+        }
     }
 }
 
