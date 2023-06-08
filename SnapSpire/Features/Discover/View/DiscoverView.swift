@@ -4,12 +4,18 @@ struct DiscoverView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack(spacing: 0) {
+                VStack(spacing: 24) {
                     SectionListView(viewModel: TopicsViewModel(),
                                     sectionName: "Topic",
                                     sectionAction: {},
                                     imageWidth: 150,
                                     imageHeight: 100)
+
+                    SectionListView(viewModel: CollectionViewModel(),
+                                    sectionName: "Collection",
+                                    sectionAction: {},
+                                    imageWidth: 158,
+                                    imageHeight: 158)
 
                     SectionListView(viewModel: CollectionViewModel(),
                                     sectionName: "Section",
