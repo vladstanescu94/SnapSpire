@@ -21,6 +21,7 @@
 		765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */; };
 		768E8C8029CB15E000AD1D59 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E8C7F29CB15E000AD1D59 /* UIConstants.swift */; };
 		7697907D29C3736C00679E10 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7697907C29C3736C00679E10 /* TabItem.swift */; };
+		76A754342A31CD1F008F3294 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A754332A31CD1F008F3294 /* DiscoverView.swift */; };
 		76F39E5F29BF60B9005A7F08 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */; };
 		76F39E6229BF60B9005A7F08 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */; };
 		76F39E6329BF60B9005A7F08 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */; };
@@ -70,6 +71,7 @@
 		765F92EA29D5A6380045837A /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
 		768E8C7F29CB15E000AD1D59 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 		7697907C29C3736C00679E10 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		76A754332A31CD1F008F3294 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		76F39E5129BF60B8005A7F08 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		76F39E5429BF60B8005A7F08 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
 		76F39E5529BF60B8005A7F08 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
@@ -201,6 +203,30 @@
 			path = Layout;
 			sourceTree = "<group>";
 		};
+		76A754302A31CC3B008F3294 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				76A754322A31CC52008F3294 /* ViewModel */,
+				76A754312A31CC49008F3294 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		76A754312A31CC49008F3294 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76A754332A31CD1F008F3294 /* DiscoverView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76A754322A31CC52008F3294 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		76F39E5029BF6001005A7F08 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +281,7 @@
 		DE0C8CB329AE41C90077FDF9 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				76A754302A31CC3B008F3294 /* Discover */,
 				DE1EBA3629AE3FF0005F64C3 /* ContentView.swift */,
 				76299C3129CDCF10006D96FC /* Home */,
 				76F39E7329C20BC4005A7F08 /* Splash */,
@@ -500,6 +527,7 @@
 				765F92EB29D5A6380045837A /* UISegmentedControl+Extensions.swift in Sources */,
 				76299C4329CDFFA9006D96FC /* CustomTabBarContainerView.swift in Sources */,
 				76299C4129CDFD90006D96FC /* TabBarModifier.swift in Sources */,
+				76A754342A31CD1F008F3294 /* DiscoverView.swift in Sources */,
 				76362D8129C32E660037B7D7 /* TabBarView.swift in Sources */,
 				765F92E429D456000045837A /* Color+Extension.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
