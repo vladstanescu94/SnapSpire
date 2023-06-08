@@ -1,7 +1,9 @@
 import SwiftUI
 
 extension UISegmentedControl {
-    func defaultConfig(font: UIFont = UIFont.italicSystemFont(ofSize: UIConstants.mediumSize), color: UIColor = UIColor(.placeholder)) {
+    func defaultConfig(font: UIFont = UIFont.italicSystemFont(ofSize: UIConstants.mediumSize),
+                       color: UIColor = UIColor(.placeholder))
+    {
         let defaultAttributes = [
             NSAttributedString.Key.font: font,
             NSAttributedString.Key.foregroundColor: color,
@@ -9,7 +11,9 @@ extension UISegmentedControl {
         setTitleTextAttributes(defaultAttributes, for: .normal)
     }
 
-    func selectedConfig(font: UIFont = UIFont.boldSystemFont(ofSize: UIConstants.mediumSize), color: UIColor = UIColor(.primary)) {
+    func selectedConfig(font: UIFont = UIFont.boldSystemFont(ofSize: UIConstants.mediumSize),
+                        color: UIColor = UIColor(.primary))
+    {
         let selectedAttributes = [
             NSAttributedString.Key.font: font,
             NSAttributedString.Key.foregroundColor: color,
