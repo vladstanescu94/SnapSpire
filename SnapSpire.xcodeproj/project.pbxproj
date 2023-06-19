@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		7613DD642A31D9FA003C39C0 /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD632A31D9FA003C39C0 /* SectionListView.swift */; };
 		7613DD662A31E21C003C39C0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD652A31E21C003C39C0 /* HeaderView.swift */; };
-		7613DD682A31E49D003C39C0 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD672A31E49D003C39C0 /* CollectionView.swift */; };
-		7613DD6F2A32E089003C39C0 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD6E2A32E089003C39C0 /* Section.swift */; };
+		7613DD6F2A32E089003C39C0 /* SectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7613DD6E2A32E089003C39C0 /* SectionItem.swift */; };
 		7615E54129C8B6E500BB646D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */; };
 		76299C2C29CDCF03006D96FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2B29CDCF03006D96FC /* User.swift */; };
 		76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76299C2D29CDCF05006D96FC /* HomeCardView.swift */; };
@@ -64,8 +63,7 @@
 /* Begin PBXFileReference section */
 		7613DD632A31D9FA003C39C0 /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
 		7613DD652A31E21C003C39C0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		7613DD672A31E49D003C39C0 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
-		7613DD6E2A32E089003C39C0 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		7613DD6E2A32E089003C39C0 /* SectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItem.swift; sourceTree = "<group>"; };
 		7615E54029C8B6E500BB646D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		76299C2B29CDCF03006D96FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		76299C2D29CDCF05006D96FC /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
@@ -130,7 +128,7 @@
 		7613DD6D2A32E06B003C39C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7613DD6E2A32E089003C39C0 /* Section.swift */,
+				7613DD6E2A32E089003C39C0 /* SectionItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,11 +232,10 @@
 		76A754312A31CC49008F3294 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				76A754332A31CD1F008F3294 /* DiscoverView.swift */,
 				76A754352A31CFBD008F3294 /* CardView.swift */,
-				7613DD632A31D9FA003C39C0 /* SectionListView.swift */,
+				76A754332A31CD1F008F3294 /* DiscoverView.swift */,
 				7613DD652A31E21C003C39C0 /* HeaderView.swift */,
-				7613DD672A31E49D003C39C0 /* CollectionView.swift */,
+				7613DD632A31D9FA003C39C0 /* SectionListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -546,7 +543,6 @@
 				DE1EBA3729AE3FF0005F64C3 /* ContentView.swift in Sources */,
 				7613DD662A31E21C003C39C0 /* HeaderView.swift in Sources */,
 				765F92E929D5A5260045837A /* PickerView.swift in Sources */,
-				7613DD682A31E49D003C39C0 /* CollectionView.swift in Sources */,
 				76299C3529CDD949006D96FC /* HomeView.swift in Sources */,
 				76A754362A31CFBD008F3294 /* CardView.swift in Sources */,
 				76F39E6F29BF6666005A7F08 /* FontManager.swift in Sources */,
@@ -559,7 +555,7 @@
 				7613DD642A31D9FA003C39C0 /* SectionListView.swift in Sources */,
 				76F39E7229BF6F99005A7F08 /* View+Extensions.swift in Sources */,
 				76299C2E29CDCF05006D96FC /* HomeCardView.swift in Sources */,
-				7613DD6F2A32E089003C39C0 /* Section.swift in Sources */,
+				7613DD6F2A32E089003C39C0 /* SectionItem.swift in Sources */,
 				DE1EBA3529AE3FF0005F64C3 /* SnapSpireApp.swift in Sources */,
 				76362D7F29C321900037B7D7 /* CustomTabBarView.swift in Sources */,
 				7697907D29C3736C00679E10 /* TabItem.swift in Sources */,

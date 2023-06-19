@@ -7,8 +7,8 @@ struct SectionListView: View {
     var imgHeight: CGFloat
     var type: ImageType?
 
-    var items: [Section] {
-        Section.topics.filter { $0.type == type }
+    var items: [SectionItem] {
+        SectionItem.topics.filter { $0.type == type }
     }
 
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
@@ -22,18 +22,20 @@ struct SectionListView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ForEach(items, id: \.self) { item in
-                        NavigationLink {
-                            ScrollView {
-                                LazyVGrid(columns: columns) {
-                                    ForEach(item.items) { card in
-                                        CardView(image: card.nameImage, name: card.nameImage, type: item.type)
-                                    }
-                                }.padding()
-                            }
-                        } label: {
+                        NavigationLink(value: item) {
                             CardView(image: item.image, name: item.name, imageWidth: imgWidth, imageHeight: imgHeight)
                         }
                     }
+                }
+            }
+            .navigationDestination(for: SectionItem.self) { item in
+                ScrollView {
+                    LazyVGrid(columns: columns) {
+                        ForEach(item.items) { card in
+                            CardView(image: card.nameImage, name: card.nameImage, type: item.type)
+                        }
+                    }
+                    .padding()
                 }
             }
         }
