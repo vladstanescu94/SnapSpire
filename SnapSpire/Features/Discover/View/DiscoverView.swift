@@ -5,23 +5,23 @@ struct DiscoverView: View {
         NavigationView {
             ScrollView {
                 VStack(spacing: UIConstants.extraLargeSize) {
-                    SectionListView(viewModel: TopicsViewModel(),
-                                    sectionName: "Topic",
+                    SectionListView(sectionName: "Topic",
                                     sectionAction: {},
                                     imageWidth: 150,
-                                    imageHeight: 100)
+                                    imageHeight: 100,
+                                    type: .topic)
 
-                    SectionListView(viewModel: CollectionViewModel(),
-                                    sectionName: "Collection",
+                    SectionListView(sectionName: "Collection",
                                     sectionAction: {},
                                     imageWidth: 158,
-                                    imageHeight: 158)
+                                    imageHeight: 158,
+                                    type: .collection)
 
-                    SectionListView(viewModel: CollectionViewModel(),
-                                    sectionName: "Section",
+                    SectionListView(sectionName: "Sellection",
                                     sectionAction: {},
                                     imageWidth: 158,
-                                    imageHeight: 158)
+                                    imageHeight: 158,
+                                    type: .sellection)
                 }
             }
         }

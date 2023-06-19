@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SectionView: View {
+struct HeaderView: View {
     var sectionName: String
     var sectionAction: () -> Void
 
@@ -22,8 +22,8 @@ struct SectionView: View {
     }
 }
 
-struct SectionView_Previews: PreviewProvider {
+struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        SectionView(sectionName: "Topic", sectionAction: {})
+        HeaderView(sectionName: "Topic", sectionAction: {})
     }
 }
