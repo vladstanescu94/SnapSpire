@@ -7,7 +7,7 @@ struct ContentView: View {
         CustomTabBarContainerView(selected: $tabSelection) {
             HomeView()
                 .tabBarItem(tabItem: .home, selected: $tabSelection)
-            Color.red
+            DiscoverView()
                 .tabBarItem(tabItem: .category, selected: $tabSelection)
             Color.green
                 .tabBarItem(tabItem: .addContent, selected: $tabSelection)
