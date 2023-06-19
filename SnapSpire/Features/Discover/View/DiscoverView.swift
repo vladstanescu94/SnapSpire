@@ -2,26 +2,14 @@ import SwiftUI
 
 struct DiscoverView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 VStack(spacing: UIConstants.extraLargeSize) {
-                    SectionListView(sectionName: "Topic",
-                                    sectionAction: {},
-                                    imageWidth: 150,
-                                    imageHeight: 100,
-                                    type: .topic)
+                    SectionListView(title: "Topic", action: {}, imgWidth: 150, imgHeight: 100, type: .topic)
 
-                    SectionListView(sectionName: "Collection",
-                                    sectionAction: {},
-                                    imageWidth: 158,
-                                    imageHeight: 158,
-                                    type: .collection)
+                    SectionListView(title: "Collection", action: {}, imgWidth: 158, imgHeight: 158, type: .collection)
 
-                    SectionListView(sectionName: "Sellection",
-                                    sectionAction: {},
-                                    imageWidth: 158,
-                                    imageHeight: 158,
-                                    type: .sellection)
+                    SectionListView(title: "Sellection", action: {}, imgWidth: 158, imgHeight: 158, type: .sellection)
                 }
             }
         }

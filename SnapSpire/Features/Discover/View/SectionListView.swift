@@ -1,11 +1,11 @@
 import SwiftUI
 
 struct SectionListView: View {
-    var sectionName: String
-    var sectionAction: () -> Void
-    var imageWidth: CGFloat
-    var imageHeight: CGFloat
-    var type: ImageType
+    var title: String
+    var action: () -> Void
+    var imgWidth: CGFloat
+    var imgHeight: CGFloat
+    var type: ImageType?
 
     var items: [Section] {
         Section.topics.filter { $0.type == type }
@@ -16,7 +16,7 @@ struct SectionListView: View {
     var body: some View {
         VStack {
             if !items.isEmpty {
-                HeaderView(sectionName: sectionName, sectionAction: { sectionAction() })
+                HeaderView(sectionName: title, sectionAction: { action() })
             }
 
             ScrollView(.horizontal, showsIndicators: false) {
@@ -26,17 +26,12 @@ struct SectionListView: View {
                             ScrollView {
                                 LazyVGrid(columns: columns) {
                                     ForEach(item.items) { card in
-                                        CardView(image: card.nameImage,
-                                                 name: card.nameImage,
-                                                 type: item.type)
+                                        CardView(image: card.nameImage, name: card.nameImage, type: item.type)
                                     }
                                 }.padding()
                             }
                         } label: {
-                            CardView(image: item.image,
-                                     name: item.name,
-                                     imageWidth: imageWidth,
-                                     imageHeight: imageHeight)
+                            CardView(image: item.image, name: item.name, imageWidth: imgWidth, imageHeight: imgHeight)
                         }
                     }
                 }
