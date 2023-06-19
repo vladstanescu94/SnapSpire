@@ -15,7 +15,9 @@ struct SectionListView: View {
 
     var body: some View {
         VStack {
-            HeaderView(sectionName: sectionName, sectionAction: { sectionAction() })
+            if !items.isEmpty {
+                HeaderView(sectionName: sectionName, sectionAction: { sectionAction() })
+            }
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
@@ -34,8 +36,7 @@ struct SectionListView: View {
                             CardView(image: item.image,
                                      name: item.name,
                                      imageWidth: imageWidth,
-                                     imageHeight: imageHeight,
-                                     type: item.type)
+                                     imageHeight: imageHeight)
                         }
                     }
                 }
