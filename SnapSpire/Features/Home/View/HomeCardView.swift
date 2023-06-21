@@ -43,6 +43,8 @@ struct HomeCardView: View {
             Text(user.timePosting)
                 .customFont(font: .rubikItalic)
                 .foregroundColor(.placeholder)
+
+            ShareButton(url: user.url)
         }
         .padding(.horizontal, UIConstants.smallPadding)
     }
